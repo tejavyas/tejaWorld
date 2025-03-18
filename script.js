@@ -1,7 +1,7 @@
 const beeModel = document.getElementById("bee-model");
 const sections = Array.from(document.querySelectorAll("section"));
 
-const shiftPositions = [0, -20, 0, 25];
+const shiftPositions = [0, -20, 0, -20];
 const cameraOrbits = [[90, 90], [-45, 90], [-180, 0], [45, 90]];
 
 const sectionOffsets = sections.map(section => section.offsetTop);
