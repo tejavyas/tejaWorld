@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #1f242d;
+    background: #0a192f;
     color: #fff;
     overflow-x: hidden;
 }
@@ -19,7 +19,7 @@ header {
     left: 0;
     width: 100%;
     padding: 20px 9%;
-    background: #1f242d;
+    background: #0a192f;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,10 +51,18 @@ section {
 
 .home h1 {
     font-size: 150px;
-    color: transparent;
-    text-shadow: 0 0 10px #fff;
+    display: flex;
+    flex-direction: column;
+    color: #64ffda;
     -webkit-text-stroke: 2px #fff;
     text-align: center;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column; /* Stacks h1 and h2 vertically */
+    align-items: center; /* Centers text horizontally */
+    text-align: center; /* Ensures text stays centered */
 }
 
 .about {
@@ -68,7 +76,8 @@ section {
 .about-content h2 {
     font-size: 40px;
     line-height: 1;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .about-content a {
@@ -81,6 +90,31 @@ section {
     text-decoration: none;
     margin-top: 20px;
 }
+
+.about-content p {
+    font-size: 20px; /* Change size */
+    font-family: 'Poppins', sans-serif; /* Ensure correct font */
+    line-height: 1.6; /* Improve readability */
+}
+
+.pic {
+    display: block; /* Ensures the image takes full width */
+  }
+  
+
+.highlight {
+    color: #64ffda; /* Nice green color */
+    font-weight: bold; /* Makes it bold */
+    padding: 3px 6px; /* Adds some padding */
+    border-radius: 5px; /* Rounds the edges */
+  }
+
+  .highlight2 {
+    font-size: 30px;
+    color: #64ffda; /* Nice green color */
+    padding: 3px 6px; /* Adds some padding */
+    border-radius: 5px; /* Rounds the edges */
+  }
 
 .gallery-content {
     display: flex;
