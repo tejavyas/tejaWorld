@@ -25,65 +25,74 @@ export const navLinks = [
 
 const experiences = [
   {
-    title: "YouTube Content Creator",
-    company_name: "Self Employed",
-    date: "2016 - Present",
+    title: "Software Development Engineer",
+    company_name: "Amazon",
+    date: "2025",
     details: [
-      "Built a subscriber base of over <span style='color: white;'>500,000 subscribers</span> by creating video content to help programmers.",
-      "Crafted visually appealling programming videos that have garnered over <span style='color: white;'>30,000,000 views</span>.",
-      "Produced high-quality educational and entertaining videos for clients including <span style='color: white;'>Intel, JetBrains, and MicroCenter</span>.",
+      "Building scalable, high-performance backend systems that power <span style='color: white;'>critical Amazon services.</span>",
+      "I design, develop, and optimize distributed systems, <span style='color: white;'>leveraging cloud infrastructure, microservices, and event-driven architectures.</span>",
+      "my primary focus is backend engineering—working with<span style='color: white;'> Java, Spring Boot, and AWS</span>.",
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Indie",
-    date: "2019 - 2023",
+    title: "Deep Learning Engineer Intern",
+    company_name: "Deloitte",
+    date: "2024",
     details: [
-      "Developed and delivered custom interdisciplinary coding portfolio for clients including <span style='color: white;'>Nvidia, Hostinger, and Amazon</span>.",
-      "<span style='color: white;'>Designed and developed innovative</span> AI applications and interactive websites.",
-      "<span style='color: white;'>Managed full project lifecycle</span> from concept to deployment in successful and timely project completions.",
+      "Built ETL Pipeline (S3, Sagemaker) for <span style='color: white;'>125 GB of Lung CT Scan Data.</span>.",
+      "<span style='color: white;'>Trained Tensorflow Object-Segmentation Model </span>for Lung Anomalies.",
+      "Implemented histogram equalization, masking layers, and other image processing to <span style='color: white;'>raise accuracy rate to 88%</span>",
     ],
   },
   {
-    title: "Software Engineer",
-    company_name: "Prime 3",
-    date: "2018 - 2019",
+    title: "Data Engineer Intern",
+    company_name: "PricewaterhouseCoopers LLC.",
+    date: "2023",
     details: [
-      "Built custom enterprise applications for a <span style='color: white;'>Fortune 500 company</span> as a full-stack software engineer.",
+      "Implemented ML classification techniques on Amazon.com Inc. Inventory Data,",
+      "enhancing financial data classification and product for improved risk assessment and regulatory compliance,",
+      "<span style='color: white;'>facilitating Amazon.com Inc. ‘s expansion into the South African Marketplace.</span>"
+    ],
+  },
+  {
+    title: "Backend Engineer",
+    company_name: "TutorTies",
+    date: "2022",
+    details: [
       "Developed and maintained <span style='color: white;'>scalable backend services</span>, ensuring high availability for critical business applications.",
       "<span style='color: white;'>Collaborated with a team</span> to design and implement front-end interfaces.",
     ],
   },
   {
-    title: "Computer Science",
-    company_name: "ODU",
-    date: "2015 - 2018",
+    title: "Mathematics and Computer Science",
+    company_name: "B.A. UC Berkeley",
+    date: "M.S. GeorgiaTech",
     details: [
-      "Built a <span style='color: white;'>computer science foundation</span> learning theory, computer architecture, and software engineering.",
-      "Worked and interned at <span style='color: white;'>NASA and Norfolk Southern Railway</span> to gain practical experience in the field of data analysis.",
-      "Acted as a member of the <span style='color: white;'>Association for Computing Machinery</span> (ACM).",
+      "Machine Learning<span style='color: white;'> High Performance Computing </span> Distributed Computing",
+      "Bayesian Statistics<span style='color: white;'> Compilers </span> and Software Development",
+      "Java<span style='color: white;'> Python</span> C++ <span style='color: white;'>C</span> PostgreSQL <span style='color: white;'> CUDA & OpenMP</span>",
     ],
   },
 ];
 
 const portfolio = [
   {
-    name: "Open Source Computer Science Repo",
+    name: "Parallelism and Theoretical Foundations",
     description:
-      "A GitHub repo with over 17,000 stars containing a curated list of free online courses from reputable universities that satisfy undergraduate computer science requirements.",
+      "Full Parallelizations of otherwise sequential algorithms to bring computational limits into compute bound ranges, impemented in CUDA and OpenMP",
     image: oscs,
   },
   {
-    name: "Dev Notes",
+    name: "Developer Experience",
     description:
-      "A newsletter with over 6,000 readers made for software developers to keep up with this rapidly evolving industry, with a sister platform in progress.",
-    image: devnotes,
+      "Experience working on enterprise level Java Systems, IAC automations, and server side optimizations",
+    image: algorithms,
   },
   {
-    name: "Visually Understanding Algorithms",
+    name: "Just for Fun",
     description:
-      "A showcase of animated algorithms coded using TypeScript, with the video garnering over 400,000 views.",
-    image: algorithms,
+      "little things like coding fully functional games, voxel engines, threeJS renderings in my free time",
+    image: devnotes,
   },
 ];
 
